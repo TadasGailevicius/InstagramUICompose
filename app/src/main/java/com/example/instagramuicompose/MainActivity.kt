@@ -9,6 +9,9 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
 import com.example.instagramuicompose.ui.theme.InstagramUIComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -16,7 +19,20 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ProfileScreen()
+            AppNavigator()
+        }
+    }
+
+    @ExperimentalFoundationApi
+    @Composable
+    fun AppNavigator() {
+        val navController = rememberNavController()
+        
+        NavHost(
+            navController = navController,
+            startDestination = "profileScreen"
+        ) {
+            composable("profileScreen"){ ProfileScreen()}
         }
     }
 }
