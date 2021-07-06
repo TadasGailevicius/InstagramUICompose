@@ -1,4 +1,4 @@
-package com.example.instagramuicompose.search
+package com.example.instagramuicompose.ui.search
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel

@@ -1,11 +1,11 @@
-package com.example.instagramuicompose.home
+package com.example.instagramuicompose.ui.profile
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class HomeViewModel @Inject constructor(
+class ProfileViewModel @Inject constructor(
 
 ) : ViewModel() {
 }

@@ -1,11 +1,11 @@
-package com.example.instagramuicompose.shop
+package com.example.instagramuicompose.ui.reels
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class ShopViewModel @Inject constructor(
+class ReelsViewModel @Inject constructor(
 
-) : ViewModel()  {
+) : ViewModel() {
 }

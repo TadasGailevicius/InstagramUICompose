@@ -18,10 +18,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.instagramuicompose.home.HomeScreen
-import com.example.instagramuicompose.reels.ReelsScreen
-import com.example.instagramuicompose.search.SearchScreen
-import com.example.instagramuicompose.shop.ShopScreen
+import com.example.instagramuicompose.ui.home.HomeScreen
+import com.example.instagramuicompose.ui.reels.ReelsScreen
+import com.example.instagramuicompose.ui.search.SearchScreen
+import com.example.instagramuicompose.ui.shop.ShopScreen
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
