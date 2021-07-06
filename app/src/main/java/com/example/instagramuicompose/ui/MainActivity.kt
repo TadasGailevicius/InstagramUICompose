@@ -1,4 +1,4 @@
-package com.example.instagramuicompose
+package com.example.instagramuicompose.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,6 +18,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.example.instagramuicompose.ProfileScreen
+import com.example.instagramuicompose.R
+import com.example.instagramuicompose.Screen
 import com.example.instagramuicompose.ui.home.HomeScreen
 import com.example.instagramuicompose.ui.reels.ReelsScreen
 import com.example.instagramuicompose.ui.search.SearchScreen
