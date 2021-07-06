@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">InstagramUICompose</string>
+    <string name="home">home</string>
+    <string name="search">search</string>
+    <string name="reels">reels</string>
+    <string name="shop">shop</string>
+    <string name="profile">profile</string>
 </resources>
