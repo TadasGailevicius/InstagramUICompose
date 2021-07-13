@@ -85,11 +85,11 @@ class MainActivity : ComponentActivity() {
             }
         ) { innerPadding ->
             NavHost(navController, startDestination = Screen.Profile.route, Modifier.padding(innerPadding)) {
-                composable(Screen.Home.route){ HomeScreen(navController) }
+                composable(Screen.Home.route){ HomeScreen() }
                 composable(Screen.Search.route){ SearchScreen(navController) }
                 composable(Screen.Reels.route){ ReelsScreen(navController) }
                 composable(Screen.Shop.route){ ShopScreen(navController) }
-                composable(Screen.Profile.route){ ProfileScreen(navController) }
+                composable(Screen.Profile.route){ ProfileScreen() }
             }
         }
     }
